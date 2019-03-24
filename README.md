@@ -1,2 +1,1 @@
-# minigo
-the way to go
+## 123456

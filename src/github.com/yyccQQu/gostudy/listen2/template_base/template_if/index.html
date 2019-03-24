@@ -1,0 +1,17 @@
+<html>
+    <head>
+    <title></title>
+    </head>
+    <body>
+    <div>hello, {{.}}</div>
+    <div>name: {{.Name}}</div>
+    <div>sex: {{.Sex}}</div>
+    <div>age: {{.Age}}</div>
+    <!-- 在address中查找 -->
+    {{with .Address}} 
+    <div>address: {{.Province}}  {{.City}}</div>
+    {{end}}
+
+    {{.Address.Province}}
+    </body>
+    </html>
